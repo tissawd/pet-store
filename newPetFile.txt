@@ -1,0 +1,18 @@
+{
+  "id": 12345678910,
+  "category": {
+    "id": 0,
+    "name": "dog"
+  },
+  "name": "Rover6",
+  "photoUrls": [
+    "http://www.rover.com/pics"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
