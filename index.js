@@ -1,6 +1,8 @@
 var fs = require('fs');
 var fetch = require('node-fetch');
-const { resolve } = require('path');
+
+/* Link to API docs https://petstore.swagger.io/#/  
+   URL  example for endpoints: https://petstore.swagger.io/v2/pet/5 */
 
 var getPetsAsync = function(status){
     var filter = status || 'available';
